@@ -1,0 +1,45 @@
+.container {
+  &-main {
+    h2 {
+      text-align: center;
+      color: silver;
+    }
+  }
+  &-outer {
+    display: flex;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border-right: 2px solid silver;
+    padding: 20px;
+    select {
+      display: block;
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+  }
+
+  &-data {
+    padding: 0 20px;
+  }
+
+  &-inputs {
+    display: flex;
+    gap: 5px;
+    input {
+      padding: 5px 10px;
+    }
+    button {
+      padding: 5px 10px;
+      background-color: darkblue;
+      color: white;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
